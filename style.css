@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+/* 
+.container {
+    width: 80%;
+    margin: 0 auto;
+} */
+
+header {
+    background-color: orange;
+    color: rgb(5, 0, 0);
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+section nav ul li {
+    display: flex;
+    margin-right: 20px;
+}
+
+header nav a {
+    color: rgb(6, 0, 0);
+    text-decoration: none;
+    margin: 80px;   
+}
+
+.links a{
+    margin: 20px;
+}
+
+section {
+    padding: 30px 0;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: orange;
+    color: rgb(4, 4, 4);
+    text-align: center;
+    padding: 20px 0;
+}
+
+body[data-theme="light"] {
+    background-color: #f9f9f9;
+}
+
+body[data-theme="dark"] {
+    background-color: #222;
+    color: #fff;
+}
+
+.theme-toggle {
+    position: relative;
+}
+
+.theme-toggle input[type="checkbox"] {
+    display: none;
+}
+
+.theme-toggle .toggle-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 25px;
+    background-color: #ccc;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+ 
+.theme-toggle input[type="checkbox"]:checked + .toggle-btn {
+    background-color: #27ae60;
+}
+
+
+.video-container {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.card1, .card2 {
+    flex: 1;
+    max-width: 400px;
+    margin: 0 20px;
+    text-align: justify;
+}
+
+.card1 img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.card2 iframe {
+    width: 100%;
+    height: 315px; /* Adjust as needed */
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card1, .card2 {
+        max-width: 100%;
+        margin: 20px 0;
+    }
+
+    .card1 img {
+        margin: 0 auto 20px;
+    }
+}
+
+.card {
+    flex: 1;
+    max-width: 400px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        max-width: 100%;
+        margin: 20px 0;
+    }
+
+    .card img {
+        margin: 0 auto 20px;
+    }
+}
+
+main a{
+    color: blue;
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+.blur {
+    filter: blur(5px);
+    pointer-events: none; /* Prevent clicking on blurred elements */
+}
+
+
+/* CSS for the button */
+#dispbutton {
+    
+    background-color: #4CAF50; /* Green */
+
+
+    padding: 15px 32px;
+
+   
+  
+    font-size: 16px;
+   
+
+   
+    
+  }
+  
+  

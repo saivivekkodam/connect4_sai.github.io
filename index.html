@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html" class= "indexcss">Index</a></li>
+                    <li> <a href="about.html" class="buttonCSS">Contact
+                        <!-- <button id="button" class = "contact_button">contact</button> -->
+                    </a></li>
+                    <li> <a href="hobbies.html" class="hobbiesCSS">Hobbies
+                        <!-- <button id="button" class = "hobbies_button" >Hobbies</button> -->
+                    </a></li>
+                    <li> <a href="projects.html" class="projectCSS">Project
+                        <!-- <button id="button" class = "Project_button" >Hobbies</button> -->
+                    </a></li>    
+                    <li> <a href="Resume.html" >Resume
+                        <!-- <button id="button" class = "Project_button" >Hobbies</button> -->
+                    </a></li>   
+                    <li> <a href="Game.html" >Game
+                        <!-- <button id="button" class = "Project_button" >Hobbies</button> -->
+                    </a></li>   
+                
+                    <li></li><div class="theme-toggle">
+                    <input type="checkbox" id="theme-switch">
+                    <label for="theme-switch" class="toggle-btn">Toggle</label></li>
+                
+                </ul>
+            </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Connect Four</h1>
+            <button id="reset">Reset</button>
+            <p>Player 1: Blue</p>
+            
+            <p>Player 2: Green</p>
+          
+            <div id="board"></div>
+            <button id="dispbutton" onclick="refreshPage()" style="display: none;">Start New Game</button>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; Saivivek kodam - vivekk@nmsu.edu</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="script1.js"></script>
+</body>
+</html>
+
+
+
